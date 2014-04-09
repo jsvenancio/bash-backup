@@ -1,7 +1,16 @@
 bash-backup
 ===========
 
-Esta pequena atualização usa RSYNC para puder efectuar backups de pastas indicadas pelo utilizador.
+This small application can use rsync to backup the folders specified by the user.
+
+basis functions:
+» copies of files present in SOURCE folder
+» check modified files to more than 00:01:00
+» erases the backup folder with modifications to more than 60 day
+
+============
+
+Esta pequena aplicação usa RSYNC para puder efectuar backups de pastas indicadas pelo utilizador.
 
 funções base:
 » copia de ficheiros presentes em pasta SOURCE
