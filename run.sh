@@ -2,6 +2,7 @@
 
 . ./config.sh --source-only
 
+: 'Creating variables to store local date'
 WEEK="$(date +'%V')"
 DAY="$(date +'%d')"
 MONTH="$(date +'%m')"
