@@ -26,4 +26,4 @@ echo "------------------------------------------------------"
 echo
 echo
 
-echo "O Sistema Ubuntu chamado ISM informa que terminou o backup com a data: $4-$3-$2[$4$3$2]" | mail -s "Backup Terminado" carlossantos@incograf.net
+echo "Here put the message" | mail -s "Here put the Subject" email@domain.ext
