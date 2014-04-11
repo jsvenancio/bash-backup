@@ -16,10 +16,10 @@ rsync -avz --backup-dir=DIR $SOURCE $DEST"$4$3$2"
 echo
 
 # PRINT FOLDER WITH MORE THAN x DAYS
-echo find $DEST -maxdepth 1 -type d -mmin +$STOREDAYS -not -iname $BACKUPFOLDER -exec echo {} \;
+find $DEST -maxdepth 1 -type d -mtime +$STOREDAYS -not -iname $BACKUPFOLDER -exec echo {} \;
 
 # DELETE AFTER x DAYS
-echo find $DEST -maxdepth 1 -type d -mtime +$STOREDAYS -not -iname $BACKUPFOLDER -exec rm -rf {} \;
+find $DEST -maxdepth 1 -type d -mtime +$STOREDAYS -not -iname $BACKUPFOLDER -exec rm -rf {} \;
 
 echo
 echo "------------------------------------------------------"
