@@ -19,24 +19,11 @@ This small application can use rsync to backup the folders specified by the user
 * go to the bash-backup directory
 * run "sh run.sh"
 
-============
+## REQUIREMENTS
+* mailutils
+```bash
+sudo apt-get install mailutils
+```
 
-Esta pequena aplicação usa RSYNC para puder efectuar backups de pastas indicadas pelo utilizador.
-
-funções base:
-* copia de ficheiros presentes em pasta SOURCE
-* verificação de ficheiros modificados à mais de 1 min.
-* apaga pasta de backup com modificações à mais de 60 dias
-* sem suporte para backup por rede
-
-## HOW TO CONFIG
-* open config.sh width eg.: gedit
-* set SOURCE var
-* ser DEST (destiny) var
-
-## HOW TO RUN
-* open terminal
-* go to the bash-backup directory
-* run "sh run.sh"
 
 ![alt text](https://github.com/NexuS-Pt/bash-backup/blob/master/System_monitor_Activity.png?raw=true  "image of system monitor from linux mint kde")
