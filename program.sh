@@ -15,18 +15,18 @@ rsync -avz --backup-dir=DIR $SOURCE $DEST"$4$3$2"
 
 echo
 
-# retornar após 1 min
-#find $DEST -maxdepth 1 -type d -mmin +1 -exec echo {} \;
+# PRINT FOLDER WITH MORE THAN x DAYS
+echo find $DEST -maxdepth 1 -type d -mmin +$STOREDAYS -not -iname $BACKUPFOLDER -exec echo {} \;
 
-# apagar após 60 dias
-#find $DEST -maxdepth 1 -type d -mtime +30 -exec rm -rf {} \;
+# DELETE AFTER x DAYS
+echo find $DEST -maxdepth 1 -type d -mtime +$STOREDAYS -not -iname $BACKUPFOLDER -exec rm -rf {} \;
 
 echo
 echo "------------------------------------------------------"
 echo
 echo
 
-
+# send an e-mail
 #(
 #	echo helo incograf.com;
 #	sleep 2;
