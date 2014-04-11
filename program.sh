@@ -26,19 +26,4 @@ echo "------------------------------------------------------"
 echo
 echo
 
-# send an e-mail
-#(
-#	echo helo incograf.com;
-#	sleep 2;
-#	echo mail from:carlossantos@incograf.com;
-#	sleep 2;
-#	echo rcpt to:carlossantos@incograf.net;
-#	sleep 2;
-#	echo data;
-#	sleep 2;
-#	echo subject: subject;
-#	sleep 2;
-#	echo .;
-#	sleep 2;
-#	echo exit
-#) | telnet incograf.com 25
+echo "O Sistema Ubuntu chamado ISM informa que terminou o backup com a data: $4-$3-$2[$4$3$2]" | mail -s "Backup Terminado" carlossantos@incograf.net
