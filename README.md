@@ -39,4 +39,4 @@ funções base:
 * go to the bash-backup directory
 * run "sh run.sh"
 
-(https://github.com/NexuS-Pt/bash-backup/blob/master/System_monitor_Activity.png?raw=true  "image of system monitor from linux mint kde")
+![alt text](https://github.com/NexuS-Pt/bash-backup/blob/master/System_monitor_Activity.png?raw=true  "image of system monitor from linux mint kde")
