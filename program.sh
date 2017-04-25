@@ -8,10 +8,13 @@ frf () {
 	return $1
 }
 
-echo "week - $1 | year - $4 | month - $3 | day - $2"
+#echo "week - $1 | year - $4 | month - $3 | day - $2"
+#Below is just a suggestion to get the date from the system in the same format you've set above
+date +'%W %Y %m %d'
 echo
 
-rsync -avz --backup-dir=DIR $SOURCE $DEST"$4$3$2"
+#rsync -avz --backup-dir=DIR $SOURCE $DEST"$4$3$2"
+rsync -avz --backup-dir=DIR $SOURCE $DEST`date +%Y%m%d`
 
 echo
 
