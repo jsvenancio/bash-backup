@@ -4,6 +4,7 @@
 2. [Português](#português)
 3. [Français](#français)
 4. [Español](#español)
+5. [Credits](#Credits)
 
 ==========
 
@@ -100,3 +101,12 @@ Un pequeño script que utiliza `rsync` para realizar copias de seguridad de carp
 
 ## Requisitos
 - mailutils
+
+==========
+
+## Credits
+
+This project was originally created by an anonymous contributor who generously provided the code. I am now maintaining and updating the project to ensure its ongoing development.
+
+Maintained by: [jsvenancio](https://linktr.ee/jsvenancio)  
+More about me: [About Me](https://about.me/jsvenancio)
