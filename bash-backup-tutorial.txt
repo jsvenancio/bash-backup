@@ -1,0 +1,146 @@
+Aqui está o tutorial completo nas quatro línguas, pronto para ser copiado de uma vez:
+
+```markdown
+# Table of Contents
+
+1. [English](#english)
+2. [Português](#português)
+3. [Français](#français)
+4. [Español](#español)
+
+==========
+
+## English
+
+# bash-backup Tutorial
+
+## 1. Configuration
+1. Open `config.sh` using your preferred text editor:
+   ```bash
+   nano config.sh
+   ```
+2. Set the `SOURCE` and `DEST` variables for source and destination folders.
+
+## 2. Running the Script
+1. Open a terminal and navigate to the bash-backup directory:
+   ```bash
+   cd /path/to/bash-backup
+   ```
+2. Run the script:
+   ```bash
+   sh run.sh
+   ```
+
+## 3. Requirements
+Ensure you have `rsync` and `mailutils` installed:
+   ```bash
+   sudo apt-get install rsync mailutils
+   ```
+
+## 4. Troubleshooting
+- Check folder paths in `config.sh`.
+- Ensure proper file permissions.
+
+==========
+
+## Português
+
+# Tutorial bash-backup
+
+## 1. Configuração
+1. Abra o ficheiro `config.sh` no editor de texto:
+   ```bash
+   nano config.sh
+   ```
+2. Defina as variáveis `SOURCE` e `DEST` para as pastas de origem e destino.
+
+## 2. Execução do Script
+1. No terminal, navegue até ao diretório do bash-backup:
+   ```bash
+   cd /caminho/para/bash-backup
+   ```
+2. Execute o script:
+   ```bash
+   sh run.sh
+   ```
+
+## 3. Requisitos
+Certifique-se de que o `rsync` e o `mailutils` estão instalados:
+   ```bash
+   sudo apt-get install rsync mailutils
+   ```
+
+## 4. Resolução de Problemas
+- Verifique os caminhos das pastas no `config.sh`.
+- Certifique-se de que tem permissões de acesso.
+
+==========
+
+## Français
+
+# Tutoriel bash-backup
+
+## 1. Configuration
+1. Ouvrez le fichier `config.sh` dans votre éditeur de texte préféré:
+   ```bash
+   nano config.sh
+   ```
+2. Définissez les variables `SOURCE` et `DEST` pour les dossiers source et destination.
+
+## 2. Exécution du Script
+1. Ouvrez un terminal et accédez au répertoire bash-backup:
+   ```bash
+   cd /chemin/vers/bash-backup
+   ```
+2. Exécutez le script:
+   ```bash
+   sh run.sh
+   ```
+
+## 3. Prérequis
+Assurez-vous que `rsync` et `mailutils` sont installés:
+   ```bash
+   sudo apt-get install rsync mailutils
+   ```
+
+## 4. Dépannage
+- Vérifiez les chemins de dossiers dans `config.sh`.
+- Assurez-vous que les permissions sont correctes.
+
+==========
+
+## Español
+
+# Tutorial bash-backup
+
+## 1. Configuración
+1. Abra el archivo `config.sh` en su editor de texto:
+   ```bash
+   nano config.sh
+   ```
+2. Configure las variables `SOURCE` y `DEST` para las carpetas de origen y destino.
+
+## 2. Ejecución del Script
+1. En el terminal, navegue al directorio de bash-backup:
+   ```bash
+   cd /ruta/a/bash-backup
+   ```
+2. Ejecute el script:
+   ```bash
+   sh run.sh
+   ```
+
+## 3. Requisitos
+Asegúrese de que `rsync` y `mailutils` están instalados:
+   ```bash
+   sudo apt-get install rsync mailutils
+   ```
+
+## 4. Resolución de Problemas
+- Verifique las rutas de las carpetas en `config.sh`.
+- Asegúrese de tener los permisos adecuados.
+
+==========
+```
+
+Agora podes copiar e colar este conteúdo diretamente no teu ficheiro de texto no repositório!
