@@ -143,4 +143,3 @@ Asegúrese de que `rsync` y `mailutils` están instalados:
 ==========
 ```
 
-Agora podes copiar e colar este conteúdo diretamente no teu ficheiro de texto no repositório!
