@@ -6,6 +6,8 @@
 4. [Español](#español)
 5. [Credits](#Credits)
 
+![alt text](./A-professional-and-realistic-image.PNG "A professional and realistic image")
+
 ==========
 
 ## English
